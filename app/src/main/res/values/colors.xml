@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0dece4</color>
+    <color name="colorPrimaryDark">#0dece4</color>
+    <color name="colorAccent">#ef4c06</color>
+    <color name="coloActivityPhone">#0dece4</color>
+    <color name="coloActivityChiTiet">#0dece4</color>
+    <color name="coloActivityLaptop">#0dece4</color>
+    <color name="coloActivityThongtin">#0dece4</color>
+    <color name="coloActivityLienHe">#0dece4</color>
+    <color name="coloActivityThongke">#0dece4</color>
+    <color name="coloActivityGioHang">#0dece4</color>
+    <color name="cololviewMenu">#0dece4</color>
+</resources>

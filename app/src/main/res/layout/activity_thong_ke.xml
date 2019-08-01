@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".activity.ThongKeActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="#716562"
+        app:titleTextColor="#37a497"
+        android:id="@+id/toolbarthongke"
+        app:title="Thống kê"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:background="#399e8a"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:text="Tổng số lượng sản phẩm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/texviewtongsoluong"
+            android:textStyle="bold"
+            android:textColor="#ffab02"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="Số lượng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#b39a9a"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:text="Tổng số lượng sản phẩm đã bán"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/texviewtongsoluongdaban"
+            android:textColor="#ffab02"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="Số lượng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#ab8e8e"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:text="Tổng số lượng sản phẩm còn lại"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/texviewtongsoluongconlai"
+            android:textColor="#ffab02"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="Số lượng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#997a7a"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:background="#765757"
+            android:id="@+id/buttonquaylaicuahang"
+            android:text="Quay lại cửa hàng"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
